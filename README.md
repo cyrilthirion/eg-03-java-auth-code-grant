@@ -8,26 +8,39 @@ This repo is a Java Spring Boot application that demonstrates:
   [Authorization Code Grant flow](https://developers.docusign.com/esign-rest-api/guides/authentication/oauth2-code-grant).
   The Spring Security library is used.
 
-1. Embedded Signing Ceremony.
+1. Embedded Signing Ceremony. 
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG001Controller.java)
    This example sends an envelope, and then uses an embedded signing ceremony for the first signer.
    With embedded signing, the DocuSign signing ceremony is initiated from your website.
 1. Send an envelope with a remote (email) signer and cc recipient.
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG002Controller.java)
    The envelope includes a pdf, Word, and HTML document.
    Anchor text ([AutoPlace](https://support.docusign.com/en/guides/AutoPlace-New-DocuSign-Experience)) is used to position the signing fields in the documents.
 1. List envelopes in the user's account.
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG003Controller.java)
 1. Get an envelope's basic information.
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG004Controller.java)
    The example lists the basic information about an envelope, including its overall status.
 1. List an envelope's recipients and their current status.
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG005Controller.java)
 1. List an envelope's documents.
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG006Controller.java)
 1. Download an envelope's documents. The example can download individual
    documents, the documents concatenated together, or a zip file of the documents.
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG007Controller.java)
 1. Programmatically create a template.
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG008Controller.java)
 1. Send an envelope using a template.
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG009Controller.java)
 1. Send an envelope and upload its documents with multpart binary transfer.
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG010Controller.java)
    Binary transfer is 33% more efficient than using Base64 encoding.
 1. Embedded sending.
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG011Controller.java)
 1. Embedded DocuSign web tool (NDSE).
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG012Controller.java)
 1. Embedded Signing Ceremony from a template with an added document.
+   [Source.](https://github.com/docusign/eg-03-java-auth-code-grant/blob/master/src/main/java/com/docusign/controller/examples/EG013Controller.java)
    This example sends an envelope based on a template.
    In addition to the template's document(s), the example adds an
    additional document to the envelope by using the
