@@ -15,7 +15,7 @@ import java.io.IOException;
 
 @Controller
 @RequestMapping("/eg011")
-public class EG011Controller extends EGController {
+public class EG011ControllerEmbeddedSending extends EGController {
     @Override
     protected void addSpecialAttributes(ModelMap model) {
 
@@ -37,7 +37,7 @@ public class EG011Controller extends EGController {
     }
 
     @Autowired
-    EG002Controller controller2;
+    EG002ControllerSigningViaEmail controller2;
 
     @Override
     protected EnvelopeDocumentsResult doWork(WorkArguments args, ModelMap model) throws ApiException, IOException {

@@ -15,7 +15,7 @@ import java.io.IOException;
 
 @Controller
 @RequestMapping("/eg012")
-public class EG012Controller extends EGController {
+public class EG012ControllerEmbeddedConsole extends EGController {
 
     @Autowired
     private HttpSession session;

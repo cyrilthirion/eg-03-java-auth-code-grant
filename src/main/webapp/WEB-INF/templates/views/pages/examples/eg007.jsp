@@ -24,7 +24,7 @@
 </p>
 
 <p>
-    View source file <a target="_blank" href="${source}">EG007Controller.java</a> on GitHub.
+    View source file <a target="_blank" href="${source}">EG007ControllerEnvelopeGetDoc.java</a> on GitHub.
 </p>
 
 <c:choose>

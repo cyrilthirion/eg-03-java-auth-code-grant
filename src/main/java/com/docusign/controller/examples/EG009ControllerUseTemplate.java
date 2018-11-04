@@ -14,7 +14,7 @@ import java.util.Arrays;
 
 @Controller
 @RequestMapping("/eg009")
-public class EG009Controller extends EGController {
+public class EG009ControllerUseTemplate extends EGController {
 
     private String message;
 

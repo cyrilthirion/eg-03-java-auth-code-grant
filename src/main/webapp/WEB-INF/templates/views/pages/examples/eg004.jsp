@@ -22,7 +22,7 @@
 </p>
 
 <p>
-    View source file <a target="_blank" href="${source}">EG004Controller.java</a> on GitHub.
+    View source file <a target="_blank" href="${source}">EG004ControllerEnvelopeInfo.java</a> on GitHub.
 </p>
 
 <c:choose>

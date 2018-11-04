@@ -30,7 +30,7 @@
        href="https://developers.docusign.com/esign-rest-api/reference/Envelopes/EnvelopeViews/createRecipient">EnvelopeViews::createRecipient</a>.
 </p>
 <p>
-    View source file <a target="_blank" href="${source}">EG013Controller.java</a> on GitHub.
+    View source file <a target="_blank" href="${source}">EG013ControllerAddDocToTemplate.java</a> on GitHub.
 </p>
 <c:choose>
     <c:when test="${templateOk}">

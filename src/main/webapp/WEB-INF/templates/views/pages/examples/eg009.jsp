@@ -20,7 +20,7 @@
     <a target='_blank' href="https://developers.docusign.com/esign-rest-api/reference/Envelopes/Envelopes/create">Envelopes::create</a>.
 </p>
 <p>
-    View source file <a target="_blank" href="${source}">EG009Controller.java</a> on GitHub.
+    View source file <a target="_blank" href="${source}">EG009ControllerUseTemplate.java</a> on GitHub.
 </p>
 
 <c:choose>

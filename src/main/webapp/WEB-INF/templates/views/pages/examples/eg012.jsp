@@ -22,7 +22,7 @@
 </p>
 
 <p>
-    View source file <a target="_blank" href="${source}">EG012Controller.java</a> on GitHub.
+    View source file <a target="_blank" href="${source}">EG012ControllerEmbeddedConsole.java</a> on GitHub.
 </p>
 <c:if test="${not envelopeOk}">
     <p><b>Optional:</b> to use the <i>Envelope's document view</i> please first create an envelope using

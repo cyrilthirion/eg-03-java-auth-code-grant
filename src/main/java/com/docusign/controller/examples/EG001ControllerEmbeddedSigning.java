@@ -14,7 +14,7 @@ import java.util.Arrays;
 
 @Controller
 @RequestMapping("/eg001")
-public class EG001Controller extends EGController {
+public class EG001ControllerEmbeddedSigning extends EGController {
 
     private static final String signerClientId = "1000";
     // Url that will be pinged by the DocuSign Signing Ceremony via Ajax;
@@ -28,9 +28,7 @@ public class EG001Controller extends EGController {
     }
 
     @Override
-    protected void addSpecialAttributes(ModelMap model) {
-        
-    }
+    protected void addSpecialAttributes(ModelMap model) {}
 
     @Override
     protected String getEgName() {

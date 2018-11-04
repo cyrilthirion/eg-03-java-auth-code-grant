@@ -15,7 +15,7 @@ import java.util.Arrays;
 
 @Controller
 @RequestMapping("/eg008")
-public class EG008Controller extends EGController {
+public class EG008ControllerCreateTemplate extends EGController {
 
     @Autowired
     protected HttpSession session;

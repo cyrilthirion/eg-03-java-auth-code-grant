@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 @Controller
 @RequestMapping("/eg007")
-public class EG007Controller extends EGController {
+public class EG007ControllerEnvelopeGetDoc extends EGController {
     @Autowired
     HttpSession session;
 

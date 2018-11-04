@@ -19,7 +19,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/eg010")
-public class EG010Controller extends EGController {
+public class EG010ControllerSendBinaryDocs extends EGController {
 
     @Override
     protected void addSpecialAttributes(ModelMap model) {

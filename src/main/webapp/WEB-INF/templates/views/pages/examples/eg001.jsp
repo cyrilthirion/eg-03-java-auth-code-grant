@@ -17,7 +17,7 @@
        href="https://developers.docusign.com/esign-rest-api/reference/Envelopes/EnvelopeViews/createRecipient">EnvelopeViews::createRecipient</a>.
 </p>
 <p>
-    View source file <a target="_blank" href="${source}">EG001Controller.java</a> on GitHub.
+    View source file <a target="_blank" href="${source}">EG001ControllerEmbeddedSigning.java</a> on GitHub.
 </p>
 
 <form class="eg" action="" method="post" data-busy="form">

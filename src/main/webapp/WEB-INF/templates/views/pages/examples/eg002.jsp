@@ -17,7 +17,7 @@
 </p>
 
 <p>
-    View source file <a target="_blank" href="${source}">EG002Controller.java</a> on GitHub.
+    View source file <a target="_blank" href="${source}">EG002ControllerSigningViaEmail.java</a> on GitHub.
 </p>
 
 <form class="eg" action="" method="post" data-busy="form">

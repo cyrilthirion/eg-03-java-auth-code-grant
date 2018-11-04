@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 @Controller
 @RequestMapping("/eg002")
-public class EG002Controller extends EGController {
+public class EG002ControllerSigningViaEmail extends EGController {
 
     @Override
     protected void addSpecialAttributes(ModelMap model) {

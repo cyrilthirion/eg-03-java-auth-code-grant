@@ -15,7 +15,7 @@ import java.util.Arrays;
 
 @Controller
 @RequestMapping("/eg013")
-public class EG013Controller extends EGController {
+public class EG013ControllerAddDocToTemplate extends EGController {
 
     // The id of the signer within this application.
     private static final String signerClientId = "1000";

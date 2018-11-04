@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("/eg004")
-public class EG004Controller extends EGController {
+public class EG004ControllerEnvelopeInfo extends EGController {
 
     @Autowired
     HttpSession session;
